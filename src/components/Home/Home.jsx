@@ -46,11 +46,14 @@ const Home = () => {
                 <MidSection />
                 
                 <Side 
-                    timer={false}
-                    title="blabalbablabbalba"
+                    timer={true}
+                    title="Deals of the Day"
 
                 />
-               <Side />
+                <Side 
+                    timer={true}
+                    title="Trending Offers"
+               />
                 <Side />
                 <Side />
 
